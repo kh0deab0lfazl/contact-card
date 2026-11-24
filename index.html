@@ -1,52 +1,300 @@
+
 <!doctype html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101815">
+  <meta name="theme-color" content="#080d18">
   <meta name="description" content="راه‌های ارتباط با ابوالفضل خورشیدی پاجی">
   <title>ابوالفضل خورشیدی پاجی | کارت تماس</title>
+
   <style>
-    :root{color-scheme:dark;--bg:#101815;--panel:#19231e;--text:#f3f5ed;--muted:#aab5aa;--accent:#c9f27a;--line:#ffffff18}
-    *{box-sizing:border-box}
-    body{margin:0;min-height:100svh;display:grid;place-items:center;padding:28px 18px;background:radial-gradient(ellipse at 50% 0%,#26382c 0,transparent 55%),var(--bg);color:var(--text);font-family:Tahoma,"Segoe UI",sans-serif}
-    a,button{font:inherit}
-    .card{width:min(100%,440px);padding:30px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,#1e2b24f2,#151e19f5);box-shadow:0 24px 80px #0006}
-    .top{display:flex;align-items:center;gap:16px;margin-bottom:27px}
-    .avatar{width:68px;height:68px;display:grid;place-items:center;flex:none;border-radius:22px;background:var(--accent);color:#172015;font-size:29px;font-weight:800}
-    h1{margin:0 0 7px;font-size:clamp(21px,6vw,28px);line-height:1.5;letter-spacing:-.5px;overflow-wrap:anywhere}.intro{margin:0;color:var(--muted);font-size:14px}
-    .rule{height:1px;background:var(--line);margin:0 0 20px}
-    .links{display:grid;gap:11px}
-    .link,.save{min-height:58px;display:flex;align-items:center;gap:14px;padding:0 16px;border-radius:16px;text-decoration:none;color:var(--text);border:1px solid var(--line);background:#ffffff06;transition:transform .18s ease,border-color .18s ease,background .18s ease}
-    .link:hover,.link:focus-visible{transform:translateY(-2px);border-color:#c9f27a88;background:#c9f27a0d;outline:none}
-    .icon{width:22px;height:22px;display:grid;place-items:center;color:var(--accent);flex:none}.icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
-    .label{font-weight:650}.detail{margin-right:auto;color:var(--muted);font-size:13px;direction:ltr}
-    .save{width:100%;justify-content:center;margin-top:18px;background:var(--accent);border-color:var(--accent);color:#182115;font-weight:750;cursor:pointer;transition:filter .18s ease,transform .18s ease}
-    .save:hover,.save:focus-visible{filter:brightness(1.06);transform:translateY(-1px);outline:3px solid #c9f27a55;outline-offset:2px}
-    .save svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-    .hint{min-height:20px;margin:12px 0 0;text-align:center;color:var(--muted);font-size:12px}
-    @media(max-width:420px){.card{padding:22px 18px;border-radius:24px}.top{align-items:flex-start;gap:13px;margin-bottom:23px}.avatar{width:56px;height:56px;border-radius:18px}h1{font-size:21px}.link{display:grid;grid-template-columns:22px minmax(0,1fr);column-gap:12px;row-gap:3px;padding:11px 13px}.icon{grid-column:1;grid-row:1/3;align-self:center}.label{grid-column:2;grid-row:1}.detail{grid-column:2;grid-row:2;margin:0;font-size:12px;justify-self:start}}
-    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+    :root {
+      color-scheme: dark;
+      --bg: #080d18;
+      --panel: #111b2d;
+      --text: #f1f5ff;
+      --muted: #91a3bd;
+      --accent: #38a5ff;
+      --line: #ffffff16;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 28px 18px;
+      background:
+        radial-gradient(ellipse at 50% 0%, #12365d 0, transparent 55%),
+        radial-gradient(ellipse at 100% 100%, #101d38 0, transparent 45%),
+        var(--bg);
+      color: var(--text);
+      font-family: Tahoma, "Segoe UI", sans-serif;
+    }
+
+    a, button { font: inherit; }
+
+    .card {
+      width: min(100%, 460px);
+      padding: 30px;
+      border: 1px solid #38a5ff30;
+      border-radius: 28px;
+      background: linear-gradient(145deg, #15243bf2, #0c1423f7);
+      box-shadow: 0 24px 80px #0009, 0 0 35px #1675cc12;
+      backdrop-filter: blur(18px);
+    }
+
+    .top {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 27px;
+    }
+
+    .avatar {
+      width: 68px;
+      height: 68px;
+      display: grid;
+      place-items: center;
+      flex: none;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #38a5ff, #1764d8);
+      color: white;
+      font-size: 29px;
+      font-weight: 800;
+      box-shadow: 0 5px 25px #168bff35;
+    }
+
+    h1 {
+      margin: 0 0 7px;
+      font-size: clamp(21px, 6vw, 28px);
+      line-height: 1.5;
+      letter-spacing: -.5px;
+      overflow-wrap: anywhere;
+    }
+
+    .intro {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .rule {
+      height: 1px;
+      background: var(--line);
+      margin: 0 0 20px;
+    }
+
+    .links {
+      display: grid;
+      gap: 11px;
+    }
+
+    .link {
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 0 16px;
+      border-radius: 16px;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--line);
+      background: #ffffff06;
+      transition: .2s ease;
+    }
+
+    .link:hover,
+    .link:focus-visible {
+      transform: translateY(-2px);
+      border-color: #38a5ff88;
+      background: #38a5ff12;
+      outline: none;
+      box-shadow: 0 5px 20px #168bff12;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      display: grid;
+      place-items: center;
+      color: var(--accent);
+      flex: none;
+    }
+
+    .icon svg {
+      width: 22px;
+      height: 22px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .label { font-weight: 650; }
+
+    .detail {
+      margin-right: auto;
+      color: var(--muted);
+      font-size: 12px;
+      direction: ltr;
+      text-align: left;
+      overflow-wrap: anywhere;
+    }
+
+    .footer {
+      margin-top: 23px;
+      text-align: center;
+      color: #62758f;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    @media(max-width: 420px) {
+      .card {
+        padding: 22px 18px;
+        border-radius: 24px;
+      }
+
+      .top {
+        align-items: flex-start;
+        gap: 13px;
+        margin-bottom: 23px;
+      }
+
+      .avatar {
+        width: 56px;
+        height: 56px;
+        border-radius: 18px;
+      }
+
+      h1 { font-size: 21px; }
+
+      .link {
+        display: grid;
+        grid-template-columns: 22px minmax(0, 1fr);
+        column-gap: 12px;
+        row-gap: 3px;
+        padding: 11px 13px;
+      }
+
+      .icon {
+        grid-column: 1;
+        grid-row: 1/3;
+        align-self: center;
+      }
+
+      .label {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      .detail {
+        grid-column: 2;
+        grid-row: 2;
+        margin: 0;
+        justify-self: start;
+        font-size: 11px;
+      }
+    }
+
+    @media(prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
   </style>
 </head>
+
 <body>
   <main class="card" aria-labelledby="person-name">
+
     <header class="top">
       <div class="avatar" aria-hidden="true">ب</div>
-      <div><h1 id="person-name">ابوالفضل خورشیدی پاجی</h1><p class="intro">راه‌های ارتباط با من</p></div>
+      <div>
+        <h1 id="person-name">ابوالفضل خورشیدی پاجی</h1>
+        <p class="intro">راه‌های ارتباط با من</p>
+      </div>
     </header>
+
     <div class="rule" aria-hidden="true"></div>
+
     <nav class="links" aria-label="راه‌های ارتباطی">
-      <a class="link" href="https://t.me/kh0de_ab0lfazl" target="_blank" rel="noopener noreferrer">
-        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m21 3-7.2 18-3.7-7.1L3 10.2 21 3Z"/><path d="m10.1 13.9 4.2-4.2"/></svg></span><span class="label">تلگرام</span><span class="detail">@kh0de_ab0lfazl</span>
+
+      <!-- Telegram -->
+      <a class="link" href="https://t.me/kh0de_ab0lfazl"
+         target="_blank" rel="noopener noreferrer">
+        <span class="icon">
+          <svg viewBox="0 0 24 24">
+            <path d="m21 3-7.2 18-3.7-7.1L3 10.2 21 3Z"/>
+            <path d="m10.1 13.9 4.2-4.2"/>
+          </svg>
+        </span>
+        <span class="label">تلگرام</span>
+        <span class="detail">@kh0de_ab0lfazl</span>
       </a>
-      <a class="link" href="https://instagram.com/kh0de_ab0lfazl" target="_blank" rel="noopener noreferrer">
-        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></span><span class="label">اینستاگرام</span><span class="detail">@kh0de_ab0lfazl</span>
+
+      <!-- Instagram -->
+      <a class="link" href="https://instagram.com/kh0de_ab0lfazl"
+         target="_blank" rel="noopener noreferrer">
+        <span class="icon">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M17.5 6.5h.01"/>
+          </svg>
+        </span>
+        <span class="label">اینستاگرام</span>
+        <span class="detail">@kh0de_ab0lfazl</span>
       </a>
-      <a class="link" href="https://github.com/kh0de_ab0lfazl" target="_blank" rel="noopener noreferrer">
-        <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5 1.3 15 3a13 13 0 0 0-7 0C5.5 1.3 4.3 1.6 4.3 1.6a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 8 18v4"/></svg></span><span class="label">گیت‌هاب</span><span class="detail">@kh0de_ab0lfazl</span>
+
+      <!-- Github -->
+      <a class="link" href="https://github.com/kh0de_ab0lfazl"
+         target="_blank" rel="noopener noreferrer">
+        <span class="icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5 1.3 15 3a13 13 0 0 0-7 0C5.5 1.3 4.3 1.6 4.3 1.6a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 8 18v4"/>
+          </svg>
+        </span>
+        <span class="label">گیت‌هاب</span>
+        <span class="detail">@kh0de_ab0lfazl</span>
       </a>
+
+      <!-- Outlook -->
+      <a class="link" href="mailto:Kh0de_ab0lfazl@outlook.com">
+        <span class="icon">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="5" width="18" height="14" rx="2"/>
+            <path d="m3 7 9 6 9-6"/>
+          </svg>
+        </span>
+        <span class="label">ایمیل Outlook</span>
+        <span class="detail">Kh0de_ab0lfazl@outlook.com</span>
+      </a>
+
+      <!-- Gmail -->
+      <a class="link" href="mailto:Kh0de.ab0lfazl0@gmail.com">
+        <span class="icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M3 18V6l9 7 9-7v12"/>
+            <path d="M3 6h18"/>
+          </svg>
+        </span>
+        <span class="label">جیمیل</span>
+        <span class="detail">Kh0de.ab0lfazl0@gmail.com</span>
+      </a>
+
     </nav>
+
+    <div class="footer">
+      DESIGNED WITH PRECISION
+    </div>
+
   </main>
 </body>
 </html>
